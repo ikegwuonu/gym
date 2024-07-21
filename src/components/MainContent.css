@@ -1,0 +1,46 @@
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .statistics {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .spent-time,
+  .info-card,
+  .my-card,
+  .transaction {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .transaction ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
